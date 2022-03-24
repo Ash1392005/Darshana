@@ -1,0 +1,5 @@
+build:
+  docker:
+      darshana: server/tools/Dockerfile
+run:
+   darshana: supervisor -s server/js/Darshana.js

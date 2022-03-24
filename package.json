@@ -1,0 +1,72 @@
+{
+  "name": "darshana",
+  "version": "8.0.2",
+  "description": "Darshana bot by Ajay o s",
+  "main": "./server/js/Darshana.js",
+  "scripts": {
+    "start": "supervisor -s server/js/Darshana.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajay-o-s/Darshana.git"
+  },
+  "keywords": [
+    "Darshana",
+    "kerthana",
+    "bot"
+  ],
+  "author": "Ajay o s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ajay-o-s/Darshana/issues"
+  },
+  "homepage": "https://github.com/Ajay-o-s/Darshana#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.3",
+    "async": "^3.2.1",
+    "awesome-phonenumber": "^2.62.0",
+    "axios": "^0.21.4",
+    "base64-to-image": "^1.0.2",
+    "browser-id3-writer": "^4.4.0",
+    "cfonts": "^2.10.0",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "cwebp-bin": "^7.0.1",
+    "dotenv": "^10.0.0",
+    "emoji-api": "^1.0.2",
+    "express": "^4.17.1",
+    "fake-useragent": "^1.0.1",
+    "fetch": "^1.1.0",
+    "ffmpeg": "^0.0.4",
+    "figlet": "^1.5.2",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "g-i-s": "^2.1.6",
+    "gh-pages": "^3.2.3",
+    "git": "^0.1.5",
+    "got": "^11.8.2",
+    "heroku-client": "^3.1.0",
+    "hxz-api": "^1.0.1",
+    "image-to-base64": "^2.2.0",
+    "jsdom": "^17.0.0",
+    "moment-timezone": "^0.5.33",
+    "ms": "^2.1.3",
+    "multistream": "^4.1.0",
+    "npm-check-updates": "^11.8.5",
+    "parse-ms": "^3.0.0",
+    "performance-now": "^2.1.0",
+    "python-shell": "^3.0.0",
+    "qrcode": "^1.4.4",
+    "qs": "^6.10.1",
+    "request": "^2.88.2",
+    "sequelize": "^6.17.0",
+    "simple-git": "^3.4.0",
+    "spinnies": "^0.5.1",
+    "sqlite3": "^5.0.2",
+    "supervisor": "^0.12.0",
+    "syntax-error": "^1.4.0",
+    "yt-search": "^2.7.6"
+  }
+}
