@@ -22,7 +22,7 @@ Project created by <a href="https://github.com/Ajay-o-s">AJAY O S</a> to make it
   ## MESSAGE TO KERTHANA
 
 <br>
-  <a href="https://github.com/Ajay-o-s"><img title="WHATSAPP" src="https://img.shields.io/badge/Message TO-KERTHANA-/darshana?style=for-the-badge&logo=whatsapp"></a><br>
+  <a href="https://wa.me/919188346721"><img title="WHATSAPP" src="https://img.shields.io/badge/Message TO-KERTHANA-/darshana?style=for-the-badge&logo=whatsapp"></a><br>
 
 ## DEPLOY
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ajay-o-s/Darshana)<br>
