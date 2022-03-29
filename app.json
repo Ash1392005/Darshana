@@ -8,17 +8,25 @@
     "env": {
         "AMMU_CODE": {
             "description": "AMMu session Code! Type your Kerthana code here.",
-            "required": true,
-            "value": ""
+            "required": true
         },
-        "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
-            "required": false
+        "PASSWORD": {
+            "description": "Enter password for open webpage of Darshana;Webpage comming soon",
+            "required": true
         },
         "HANDLERS": {
             "description": "handlers For commands.",
             "required": true,
-            "value": "^[.!;]"
+            "value": "^[,.!;]"
+        },
+        "WORK_TYPE": {
+            "description": "Darshana Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "required": true,
+            "value": "private"
+        },
+        "SUDO": {
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number; eg : ```919188346721,0```",
+            "required": false
         },
         "NO_LOG": {
             "description": "Set true if you don't want to see error log.",
@@ -30,6 +38,11 @@
             "required": true,
             "value": "false"
         },
+        "NO_ONLINE": {
+            "description": "Type true if you don't want to appear online.",
+            "required": false,
+            "value": "true"
+        },
         "HEROKU": {
             "description": "If it is running in Heroku, type true.",
             "required": true,
@@ -40,11 +53,7 @@
             "required": true,
             "value": ""
         },
-        "WORK_TYPE": {
-            "description": "Darshana Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
-            "required": true,
-            "value": "private"
-        },
+        
         "HEROKU_APP_NAME": {
             "description": "Heroku APP Name.",
             "required": true,
@@ -55,11 +64,7 @@
             "required": true,
             "value": "false"
         },
-        "NO_ONLINE": {
-            "description": "Type true if you don't want to appear online.",
-            "required": false,
-            "value": "true"
-        },
+        
         "STATUS": {
             "description": "Do you want auto sent status using cmd sent/snd",
             "required": false,
