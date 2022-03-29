@@ -17,6 +17,7 @@ module.exports = {
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     AUTO_UPDATE: process.env.AUTO_UPDATE === undefined ? false : convertToBool(process.env.AUTO_UPDATE),
     MENTION: process.env.MENTION === undefined ? 'true' : process.env.MENTION,
+    AK_MENTION: process.env.AK_MENTION === undefined ? 'true' : process.env.AK_MENTION,
     STATUS: process.env.STATUS === undefined ? 'false' : process.env.STATUS,
     BRANCH: 'main',
     HEROKU: {
@@ -26,6 +27,6 @@ module.exports = {
     },
     NO_ONLINE: process.env.NO_ONLINE === undefined ? true : convertToBool(process.env.NO_ONLINE),
     DATABASE: new Sequelize({ dialect: "sqlite", storage: './server/DB/Darshana.db', logging: DEBUG }),
-    SUDO: process.env.SUDO === undefined ? '917510153501,0' : process.env.SUDO,
+    SUDO: process.env.SUDO === undefined ? '919188346721,0' : process.env.SUDO,
     DEBUG: DEBUG 
 };
